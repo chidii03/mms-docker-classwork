@@ -9,7 +9,7 @@ public class Main {
         System.out.println("\"Keep learning, keep building,");
         System.out.println("and never stop improving.\"");
         System.out.println();
-        System.out.println("Name: Khalid Nifemi");
+        System.out.println("Name: Okwu Chidi");
         System.out.println("Course: Software Engineering - MMS4");
         System.out.println("========================================");
     }
