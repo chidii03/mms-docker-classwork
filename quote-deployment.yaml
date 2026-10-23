@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: mm4-favourite-quote-deployment
+  name: mm4-favourite-quote-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mm4-favourite-quote-deployment
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: mm4-favourite-quote-deployment
+    spec:
+      containers:
+      - image: mms4-favourite-quote:latest
+        name: mms4-favourite-quote
+        resources: {}
+status: {}
